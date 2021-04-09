@@ -10,7 +10,7 @@ listaMenor = []
 # Leitura de dados do usuário
 # Onde o nome do dict dados vai ser o ponto de entrada do teclado, e com isso o usuário so pode terminar se digitar 'sair'.
 print('AGENDA TELEFÔNICA!')
-print('PARA SAIR E SALVAR A AGENDA DIGITE(sair)!!')
+print('PARA SAIR E SALVAR A AGENDA DIGITE (sair)!!')
 dados['nome'] = str(input('Nome: ')).title()
 # Aqui entra no laço(loop) para o preenchimento das chaves dentro do dict dados.
 while True:
